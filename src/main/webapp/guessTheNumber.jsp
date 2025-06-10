@@ -66,11 +66,14 @@
    <h2 style="position: absolute; top: 280px; left: 100px;">Guess the Number Game:</h2>
    
     <form action="GuessNumberServlet"style="position: absolute; top: 380px; left: 100px;" method="POST">
-        <label >Enter a number between 1 and 100 :</label>
+        <label >Enter a number between 1 and 10 :</label>
         <input type="number" name="guess" required><br><br>
         <button type="submit">Submit Guess</button>
     </form>
 
-    <p>${message}</p>
+    <p style="position: absolute; top: 580px; left: 100px; color: white; font-size: 20px;">
+  ${message}
+</p>
+
 </body>
 </html>

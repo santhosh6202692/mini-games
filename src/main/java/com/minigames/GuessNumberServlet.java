@@ -19,7 +19,7 @@ import java.util.Random;
 public class GuessNumberServlet extends HttpServlet {
 
     private static final int MIN_NUMBER = 1;
-    private static final int MAX_NUMBER = 100;
+    private static final int MAX_NUMBER = 10;
     private int targetNumber;
 
     @Override
